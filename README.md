@@ -51,6 +51,8 @@ Navigate to the folder where the main python script exists and run the code belo
 python main.py
 ```
 
+# ```sh Working of the Bot```
+
 ### Step 1 (User asks question):
 Users can interact with Sam via Slack. Once the user post a question via the interface, the question is passed to the backend system for analysis
 
