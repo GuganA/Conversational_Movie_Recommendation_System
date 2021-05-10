@@ -4,12 +4,12 @@ Movie Recommendation in Conversational
 
 Steps To Run projects
 
-##Step 1: Create Slack Bot user
+## Step 1: Create Slack Bot user
 
-##Step 2: Create a IBM Watson account and Upload the bot.json workspace
+## Step 2: Create a IBM Watson account and Upload the bot.json workspace
      skill-sam.json file in nlp 
      
-##Step 3: Install required packages
+## Step 3: Install required packages
 
 ```sh
 pip install pandas
@@ -22,11 +22,11 @@ pip install slackclient
 pip install ibm-watson
 ```
 
-##Step 4: Update the config files with the Slack and Watson API details
+## Step 4: Update the config files with the Slack and Watson API details
 
 Please make sure that you modified the API details both for Slack and Watson in the config.py file
 
-##Step 5: Download data from source and perform Data Preparation
+## Step 5: Download data from source and perform Data Preparation
 
 The data for this example is downloaded from the location below,
 
@@ -34,7 +34,7 @@ https://www.kaggle.com/rounakbanik/movie-recommender-systems/data
 
 Name of the dataset - movies_metadata.csv
 
-##Step 6: Create "onetime.txt" file
+## Step 6: Create "onetime.txt" file
 
 Navigate to the folder where the main.py file resides and execute the code below.
 
@@ -43,7 +43,7 @@ python nlp/nlp_solutions/onetime_run_file.py
 ```
 This will create the "onetime.txt" file automatically. If you need to rename this file, update the name in "config.py" file.
 
-##Step 7: Initiate Bot
+## Step 7: Initiate Bot
 
 Navigate to the folder where the main python script exists and run the code below.
 
