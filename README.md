@@ -17,7 +17,7 @@ pip install numpy
 pip install sklearn
 pip install nltk
 python -m nltk.downloader stopwords
-python -m nltk.downloader punkt]
+python -m nltk.downloader punkt
 pip install slackclient
 pip install ibm-watson
 ```
